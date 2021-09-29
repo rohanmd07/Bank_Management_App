@@ -4,6 +4,7 @@ import java.util.Scanner;
 public class BankApp {
 
 	public static void main(String[] args) {
+		
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("Dear customer, Welcome to our e-banking facility");
 		System.out.println("Please choose the type of service you want");
