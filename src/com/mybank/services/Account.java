@@ -33,7 +33,7 @@ public class Account {
 	}
 	
 	public double checkBalance() {
-		return balanceAmount;
+		return this.balanceAmount;
 	}
 	
 }

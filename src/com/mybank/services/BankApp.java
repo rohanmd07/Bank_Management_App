@@ -32,19 +32,11 @@ public class BankApp {
 		 case 3: 
 			 System.out.println("Please enter the amount to be deposited");
 		 	 double depositAmount = scanner.nextDouble();
+		 	 break;
 		 case 4:
-			 
-		     
-	   }  
-		
-		
-		
-		
-		
-		
-		
-		
-
+			 break;
+		 default:
+			 System.out.println("Sorry! wrong choice");
+		}	       
 	}
-
 }
