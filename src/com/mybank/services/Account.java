@@ -19,13 +19,14 @@ public class Account {
 	public void deposit(double depositAmount) {
 		this.balanceAmount += depositAmount;
 		System.out.println(depositAmount+" money has been deposited to your bank account");
-		System.out.println("Your new balance is "+balanceAmount);
+		System.out.println("Your new balance is "+this.balanceAmount);
 	}
 	
 	public void withdraw(double withdrawlAmount) {
-		if(withdrawlAmount <= balanceAmount) {
-			balanceAmount -= withdrawlAmount;
+		if(withdrawlAmount <= this.balanceAmount) {
+			this.balanceAmount -= withdrawlAmount;
 			System.out.println(withdrawlAmount+" money has been deposited to your bank account");
+			System.out.println("Your new balance is "+this.balanceAmount);
 		}else {
 			System.out.println("Sorry! you dont have enough balance in your account");
 		}
